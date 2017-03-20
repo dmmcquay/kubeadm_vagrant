@@ -3,6 +3,7 @@ KUBEADM=k8s.io/kubernetes/cmd/kubeadm
 BIN=$ROOT/bin
 CNI=$ROOT/cni
 
+rm $BIN/*
 cd $BIN
 echo "building kubeadm"
 GOARCH=amd64 GOOS=linux go build $KUBEADM
