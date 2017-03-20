@@ -13,4 +13,3 @@ echo "copying over files"
 vagrant scp $BIN/kubeadm n1:~/
 vagrant scp $BIN/kubeadm n2:~/
 vagrant scp $CNI/kube-flannel.yml n1:~/
-vagrant scp $CNI/kube-flannel.yml n2:~/
