@@ -2,6 +2,7 @@ ROOT=$GOPATH/src/github.com/dmmcquay/kubeadm_vagrant
 KUBEADM=k8s.io/kubernetes/cmd/kubeadm 
 BIN=$ROOT/bin
 CNI=$ROOT/cni
+NOTES=$ROOT/notes
 
 rm $BIN/*
 cd $BIN
