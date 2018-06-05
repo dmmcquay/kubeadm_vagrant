@@ -45,6 +45,7 @@ chmod +x /home/vagrant/calicoctl
 sudo mv /home/vagrant/calicoctl /usr/local/bin/
 echo Pulling down calico yaml
 curl -s -O https://docs.projectcalico.org/v3.1/getting-started/kubernetes/installation/hosted/kubeadm/1.7/calico.yaml
+chown vagrant:vagrant /home/vagrant/calico.yaml
 SCRIPT
 
 Vagrant.configure("2") do |config|
